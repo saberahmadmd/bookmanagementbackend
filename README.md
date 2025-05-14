@@ -29,15 +29,14 @@ git clone https://github.com/your-username/book-management-api.git
 cd book-management-api
 
 2. Install Dependencies
-bash
-Copy
-Edit
 npm install
-3. Environment Variables
+
+4. Environment Variables
 Create a .env file in the root directory:
 PORT=3000
 MONGO_URI=your_mongo_connection_string
-4. Start the Server
+
+6. Start the Server
 npm start
 The server will run at: http://localhost:3000
 
